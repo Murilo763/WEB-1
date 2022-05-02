@@ -1,0 +1,50 @@
+
+body{
+	color:  white;
+	font-family: 'Rock Salt', cursive;
+	background-image: url(fotos/background_pagina.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.topo{
+	display: flex;
+	justify-content: flex-start;
+}
+
+header{
+	background-color: orange;
+	height: 80px;
+	width: 100%;
+	position: relative;
+	bottom: 10px;
+}
+
+#titulo_pagina{
+	font-size: 30px;
+	position: relative;
+	left:  10px;
+	bottom: 20px;
+
+}
+
+.meio1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.meio2{
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: flex-endx;
+}
+
+.meio3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
